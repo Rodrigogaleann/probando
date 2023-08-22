@@ -1,0 +1,143 @@
+@import url('https://fonts.cdnfonts.com/css/narifah');
+
+@import url('https://fonts.cdnfonts.com/css/big-dealer');
+
+* {margin: 0;
+   padding: 0;
+   box-sizing: 0;}
+
+.hero{background-image: url(./hero.avif);
+      width: 100%;
+      height: 600px;
+      background-size: contai;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      display: flex;
+      justify-content: space-evenly;
+      gap: 150px;
+      color: rgba(177, 107, 4, 0.581);
+}
+
+.icono{width: 13rem;}
+
+.t1{display: flex;
+    align-items: center;}
+
+ul{display: flex;
+   gap: 50px;}
+   
+
+h1 {color:#500000;
+    font-size: 5rem;
+    font-family: 'Narifah', sans-serif;
+    text-align: center;
+    }
+
+h2{font-family: 'Narifah', sans-serif;
+   color:#500000;
+   font-size: 40px;}
+
+ul{list-style: none;
+   padding-right: 10px;
+   padding-top: 15px;}
+
+.navegation{display: flex;}
+
+a{text-decoration: none;}
+
+.sec{padding: 10px;}
+
+body{background-image: url(./body\ index.avif);
+     background-size: contain;
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 100%;}
+
+.cart_principal{width: 90%;
+                height: 500px;
+                border: 2px solid black;
+                border-radius: 20px;
+                box-shadow: 15px 15px 15px;
+                margin: 0 auto;
+                background-color: #ffb9a9;
+                padding: 10px;
+                align-content: center;
+                justify-content: center;
+                gap: 50px;}
+
+.maps{height: 150px;
+      width: 150px;
+      margin: 0 auto;}
+
+.cart{border: 1px solid black;
+     box-shadow: 10px 10px 10px;
+      height: 160px;
+      width: 160px;
+      border-radius: 10px;
+      background-size: contain;
+      background-size: cover;
+     background-repeat: no-repeat;}
+
+.second1{background-image: url(./cerveceria1.avif);
+         position: relative;
+         top: -10px;
+         left: 20px;
+         z-index: 0;}
+
+.second2{background-image: url(./barra\ cerveceria.jpg);
+         position: relative;
+         z-index: 2;
+         top: -20px;
+         left: 150px;}
+
+.second3{background-image: url(./fachada\ cervecceria.jpg);
+         position: relative;
+         top: -40px;
+         left: 20px;
+         z-index: 1;}
+
+.cart_principal{display: flex;}
+
+.letter{display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+        align-content: center;
+        width: 50%;}
+
+.sec_cart{
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;}
+
+.carta{border: 1px solid rgb(204, 199, 199);
+       border-radius: 10px;
+       height: 450px;
+       width: 270px;}
+
+.sabores{display: flex;}
+
+.sabor{background-size: contain;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       display: flex;
+       flex-direction: column;
+       align-items: center;}
+
+.sab1{background-image: url(./animas1.jpg);}
+.sab2{background-image: url(./animas2.jpg);}
+
+.letter2{display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         color: #ffdcd3;}
+
+.s2{padding: 20px;}
+
+
